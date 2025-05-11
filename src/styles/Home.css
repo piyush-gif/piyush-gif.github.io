@@ -1,0 +1,26 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(8, 197, 93);
+  padding-left: 40px;
+  font-size: 1.5em;
+  user-select: none;
+}
+.bar{
+  display:flex;
+  gap: 24px;
+}
+.bar a{
+  color:rgb(8, 197, 93);
+  padding: 24px;
+}
+.bar a:hover {
+  color: #fff;
+  cursor:pointer;        
+}
+.bar a:active{
+  background-color: rgb(8, 197, 93);
+}
