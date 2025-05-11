@@ -1,22 +1,21 @@
 import { useState } from 'react'
-import './styles/Home.css'
+import './styles/NavBar.css'
+import './styles/Body.css'
+import './Components/NavBar'
+import NavBar from './Components/NavBar'
+import Card from './Components/Card'
+import Project from './Components/Project'
+import Certification from './Components/Certification'
+import Contact from './Components/Contact'
 function Home() {
   
   return (
     <>
-    <nav>
-    <div className="nav">
-      <a>PKC</a>
-      <div className="bar"> 
-        <a>Home</a>
-        <a>About</a>
-        <a>Projects</a>
-      </div>
-    </div>
-    </nav>
-    <div>
-      <h1>PIYUSH KHADKA CHHETRI</h1>
-    </div>
+      <NavBar/>
+      <Card/>
+      <Project/>
+      <Certification/>
+      <Contact/>
     </>
   )
 }
