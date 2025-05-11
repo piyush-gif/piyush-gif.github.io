@@ -9,10 +9,10 @@ const projects=[{
 
 const Project =() => {
   return (
-    <div>
-      <h1 className="projects">Projects</h1>
+    <div className="projects">
+      <h1>Projects</h1>
         {projects.map((proj,id) => (
-          <div className="singleProject"  key={id}>
+          <div className="singleProject" key={id}>
             <img src={proj.image}/>
             <h1>{proj.title}</h1>
             <p>{proj.description}</p>
@@ -21,4 +21,4 @@ const Project =() => {
     </div>
 )}
 
-export default Project
+export default Project;
