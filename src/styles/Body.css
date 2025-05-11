@@ -28,19 +28,3 @@ span{
   padding-right: 50px;
   box-shadow:0 4px 16px rgba(24, 204, 8, 0.914)
 }
-.projects{
-  background:none;
-  color:rgb(8, 197, 93);
-  margin-top:100px;
-  padding: 40px 0;
-  text-align: center;
-  box-shadow: none;
-  border:none;
-}
-.certifications{
-  text-align: center;
-  padding: 50px;
-}
-.certificates{
-
-}
