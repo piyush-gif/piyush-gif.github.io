@@ -1,10 +1,9 @@
-
 .nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(0, 0, 0);
-  color:rgb(8, 197, 93);
+  background-color: rgb(7, 11, 37);
+  color:rgb(34, 62, 189);
   padding-left: 40px;
   font-size: 1.5em;
   user-select: none;
@@ -14,7 +13,7 @@
   gap: 24px;
 }
 .bar a{
-  color:rgb(8, 197, 93);
+  color:rgb(26, 49, 163);
   padding: 24px;
 }
 .bar a:hover {
