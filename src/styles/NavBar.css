@@ -7,7 +7,6 @@
   padding-left: 40px;
   user-select: none;
   font-size: 1em;
-  
 }
 .bar{
   display:flex;
@@ -26,10 +25,11 @@
   background-color: rgb(31, 94, 160);
 }
 
-.backgroundpic{
-  background-image:url('../assets/images/backgroundpic.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  min-height: 95vh;
-  width: 100vw; 
+.hero-background {
+  background-image: url('../assets/images/backgroundpic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;
+  position: relative;
 }

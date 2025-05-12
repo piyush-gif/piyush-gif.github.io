@@ -15,7 +15,9 @@ import Contact from './Components/Contact'
 function Home() {
   return (
     <>
-      <NavBar/>
+      <div className="hero-background">
+        <NavBar />
+      </div>
       <div id="about">
         <Card/>
       </div>
