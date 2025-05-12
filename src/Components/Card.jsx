@@ -1,3 +1,5 @@
+
+
 const Card =() =>{
 
   return (
@@ -16,7 +18,7 @@ const Card =() =>{
           <span>CSS</span>
           <div>
             <button>
-              <a href="/Piyushkhadkacv.pdf" download style={{ textDecoration: 'none', color: 'inherit' }}>
+              <a href="/Piyushkhadkacv.pdf" download>
                 Download CV
               </a>
             </button>

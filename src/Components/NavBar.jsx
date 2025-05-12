@@ -1,22 +1,16 @@
-
-
 const NavBar = () =>{
-
   return (
     <nav>
       <div className="nav">
         <a>PKC</a>
         <div className="bar"> 
-          <a>Home</a>
-          <a>About</a>
-          <a>Projects</a>
-          <a>Contacts</a>
+          <a>ABOUT</a>
+          <a>PROJECTS</a>
+          <a>CONTACTS</a>
         </div>
       </div>
     </nav>
   )
 }
- 
-
 export default NavBar;
  

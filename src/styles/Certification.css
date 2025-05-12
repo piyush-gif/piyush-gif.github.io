@@ -5,7 +5,11 @@
   display: flex;
   width: 400px;
   margin:8px;
+  background-color: brown;
 }
 .certicard{
   display:flex;
+}
+.drop-down-content{
+  background-color: blueviolet;
 }

@@ -2,24 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(7, 11, 37);
-  color:rgb(34, 62, 189);
+  background-color: rgb(31, 94, 165);
+  color:rgb(255, 255, 255);
   padding-left: 40px;
-  font-size: 1.5em;
   user-select: none;
+  font-size: 1em;
 }
+
 .bar{
   display:flex;
-  gap: 24px;
+  gap: 0px;
 }
 .bar a{
-  color:rgb(26, 49, 163);
+  color:rgb(255, 255, 255);
   padding: 24px;
+  
 }
 .bar a:hover {
-  color: #fff;
-  cursor:pointer;        
+  color: #ffffff9e;
+  cursor:pointer;    
 }
 .bar a:active{
-  background-color: rgb(8, 197, 93);
+  background-color: rgb(9, 24, 80);
 }

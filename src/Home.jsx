@@ -10,12 +10,13 @@ import Card from './Components/Card'
 import Project from './Components/Project'
 import Certification from './Components/Certification'
 import Contact from './Components/Contact'
-
+import Body from './Components/Body'
 function Home() {
   
   return (
     <>
       <NavBar/>
+      <Body/>
       <Card/>
       <Project/>
       <Certification/>
