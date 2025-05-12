@@ -8,6 +8,10 @@ const projects=[{
   } , {title: 'Pneumonia Recognition using MONAI',
        description: 'Pneumonia Recognition using MONAI is a deep learning project...',
        image: pneumoniaImg,
+       id: 2,}
+      , {title: 'Pneumonia Recognition using MONAI',
+       description: 'Pneumonia Recognition using MONAI is a deep learning project...',
+       image: pneumoniaImg,
        id: 2,}];
 
 const Project =() => {
@@ -18,7 +22,7 @@ const Project =() => {
         {projects.map((proj,id) => (
           <div className="singleProject" key={id}>
             <img src={proj.image}/>
-            <h1>{proj.title}</h1>
+            <h2>{proj.title}</h2>
             <p>{proj.description}</p>
           </div>
         ))}

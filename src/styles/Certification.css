@@ -1,4 +1,11 @@
-.certifications{
+.header{
   text-align: center;
-  padding: 50px;
+}
+.certificates{
+  display: flex;
+  width: 400px;
+  margin:8px;
+}
+.certicard{
+  display:flex;
 }
