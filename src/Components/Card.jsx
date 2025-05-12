@@ -14,7 +14,13 @@ const Card =() =>{
           <span>React</span>
           <span>HTML</span>
           <span>CSS</span>
-        <button>Download CV</button>
+          <div>
+            <button>
+              <a href="/Piyushkhadkacv.pdf" download style={{ textDecoration: 'none', color: 'inherit' }}>
+                Download CV
+              </a>
+            </button>
+          </div>
       </div>
   </div>
   )
