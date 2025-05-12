@@ -1,15 +1,17 @@
 const NavBar = () =>{
   return (
-    <nav>
-      <div className="nav">
-        <a>PKC</a>
-        <div className="bar"> 
-          <a>ABOUT</a>
-          <a>PROJECTS</a>
-          <a>CONTACTS</a>
+    <div className="backgroundpic">
+      <nav>
+        <div className="nav">
+          <a>PKC</a>
+          <div className="bar"> 
+            <a>ABOUT</a>
+            <a>PROJECTS</a>
+            <a>CONTACTS</a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   )
 }
 export default NavBar;

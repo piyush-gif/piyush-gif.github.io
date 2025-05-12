@@ -1,5 +1,7 @@
 body {
   font-family:'SF Mono', 'Fira Mono', 'Fira Code', 'Roboto Mono', monospace;
+  margin:0;
+  padding:0;
 }
 span{
   background-color: rgb(0, 0, 0);
@@ -7,33 +9,4 @@ span{
   border: 10px;
   padding: 5px;
   border-radius: 10px;
-}
-.card{
-  display:flex;
-  justify-content: space-between;
-
-  
-}
-.card1{
-  margin-top:40px;
-  width: 500px;
-  padding-left:50px;
-  padding-top:50px;
-}
-.card2{
-  background-color: rgb(230, 230, 11);
-  margin-top:40px;
-  margin-right:40px;
-  text-align: center;
-  width: 500px;
-  padding-top: 20px;
-  padding-right: 50px;
-  box-shadow:0 4px 16px rgba(24, 204, 8, 0.914)
-}
-.backgroundpic{
-  background-image:url('../assets/images/backgroundpic.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  min-height: 100vh;
-  width: 100vw; 
 }

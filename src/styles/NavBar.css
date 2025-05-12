@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(31, 94, 165);
+  /* background-color: rgb(31, 94, 165); */
   color:rgb(255, 255, 255);
   padding-left: 40px;
   user-select: none;
   font-size: 1em;
 }
-
 .bar{
   display:flex;
   gap: 0px;
@@ -23,5 +22,13 @@
   cursor:pointer;    
 }
 .bar a:active{
-  background-color: rgb(9, 24, 80);
+  background-color: rgb(31, 94, 160);
+}
+
+.backgroundpic{
+  background-image:url('../assets/images/backgroundpic.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height: 100vh;
+  width: 100vw; 
 }
