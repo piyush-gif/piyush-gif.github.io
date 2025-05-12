@@ -16,10 +16,18 @@ function Home() {
   return (
     <>
       <NavBar/>
-      <Card/>
-      <Project/>
-      <Certification/>
-      <Contact/>
+      <div id="about">
+        <Card/>
+      </div>
+      <div id="projects">
+        <Project/>
+      </div>
+      <div id="certifications">
+        <Certification/>
+      </div>
+      <div id="contacts">
+        <Contact/>
+      </div>
     </>
   )
 }

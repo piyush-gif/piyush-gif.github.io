@@ -7,6 +7,7 @@
   padding-left: 40px;
   user-select: none;
   font-size: 1em;
+  
 }
 .bar{
   display:flex;
@@ -14,8 +15,8 @@
 }
 .bar a{
   color:rgb(255, 255, 255);
-  padding: 24px;
-  
+  padding: 24px; 
+  text-decoration: none;
 }
 .bar a:hover {
   color: #ffffff9e;
@@ -29,6 +30,6 @@
   background-image:url('../assets/images/backgroundpic.jpg');
   background-size:cover;
   background-repeat:no-repeat;
-  min-height: 100vh;
+  min-height: 95vh;
   width: 100vw; 
 }

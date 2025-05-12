@@ -1,8 +1,10 @@
-
-
 const Card =() =>{
-
+  
   return (
+    <>
+    <div className="aboutMe">
+      A Little Bit About Me
+      </div>
     <div className="card">
       <div className="card1">
         <h1>PIYUSH KHADKA CHHETRI</h1>
@@ -25,6 +27,8 @@ const Card =() =>{
           </div>
       </div>
   </div>
+  
+  </>
   )
 } 
 
