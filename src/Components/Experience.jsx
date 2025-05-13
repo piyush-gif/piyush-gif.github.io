@@ -21,7 +21,6 @@ const Experience = () =>{
     { logo: powerBiLogo},
     { logo: sqlLogo},
     { logo:MachineLearning}  
-
   ];
 return (
   <>
@@ -45,5 +44,4 @@ return (
     </div>
   </>
 )}
-
 export default Experience;

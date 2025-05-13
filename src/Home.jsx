@@ -1,17 +1,19 @@
-import './styles/NavBar.css'
-import './styles/Body.css'
-import './styles/Projects.css'
-import './styles/Certification.css'
-import './styles/Contact.css'
-import './styles/Card.css'
-import './styles/Experience.css'
-import './Components/NavBar'
-import NavBar from './Components/NavBar'
-import Card from './Components/Card'
-import Project from './Components/Project'
-import Certification from './Components/Certification'
-import Contact from './Components/Contact'
-import Experience from './Components/Experience'
+import './styles/NavBar.css';
+import './styles/Body.css';
+import './styles/Projects.css';
+import './styles/Certification.css';
+import './styles/Contact.css';
+import './styles/Card.css';
+import './styles/Experience.css';
+import './styles/Parallax.css';
+import './Components/NavBar';
+import NavBar from './Components/NavBar';
+import Card from './Components/Card';
+import Project from './Components/Project';
+import Certification from './Components/Certification';
+import Contact from './Components/Contact';
+import Experience from './Components/Experience';
+import Parallax from './Components/Parallax';
 
 function Home() {
   return (
@@ -29,6 +31,7 @@ function Home() {
       <div id="experience">
         <Experience/>
         </div>
+        <Parallax/>
       <div id="projects">
         <Project/>
       </div>
