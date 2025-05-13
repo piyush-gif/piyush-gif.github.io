@@ -1,35 +1,43 @@
+
 const Card =() =>{
 
+  const dos=[{
+    image: "hrer",
+    title: "DESIGN",
+    text: "Design isn't just what a product looks like and feels like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.",
+    id: 1,
+  },{
+    image: "hrer",
+    title: "DEVELOPMENT",
+    text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+    id: 2,
+  },{
+    image: "hrer",
+    title: "Involvement",
+    text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+    id: 3,
+  }]
+
+
   return (
-    <>
+    <div className="abouts">
     <div className="aboutMe">
-      A Little Bit About Me
-      <p>Hey! My name is Piyush and I am a Computer Science Graduate from <a href="">Leeds Beckett University</a>. Currently I'm <br/>enhancing my portfolio with projects like a React-based personal website and a MONAI-powered medical imaging tool, aiming to bridge innovation with user-centric design.</p>
+      <h2>A Little Bit About Me</h2>
+      <p>Hey! My name is Piyush and I am a Computer Science Graduate<br/> from <a href="https://www.leedsbeckett.ac.uk/courses/computer-science-bsc" target="_blank">Leeds Beckett University</a>. Currently I'm enhancing<br/> my portfolio with projects like a React-based personal website<br/> and a MONAI-powered medical imaging tool, aiming to bridge innovation with user-centric design.</p>
       </div>
-    <div className="card">
-      <div className="card1">
-        <h1>PIYUSH KHADKA CHHETRI</h1>
-        <p>Passionate programmer graduated from Leeds Beckett University. I love building interactive and responsive web applications with React.</p>
-      </div>
-      <div className="card2">
-        <h1>Skills</h1>
-          <span>Python</span>
-          <span>JavaScript</span>
-          <span>SQL</span>
-          <span>React</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <div>
-            <button>
-              <a href="/Piyushkhadkacv.pdf" download>
-                Download CV
-              </a>
-            </button>
-          </div>
+      <div className="card">
+        <h1>WHAT I DO</h1>
+        <div className="card1">
+          {dos.map((data) => (
+            <div className="card2" key={data.id}>
+              <img src={data.image} />
+              <h3>{data.title}</h3>
+              <p>{data.text}</p>
+            </div>
+          ))}
+        </div>
       </div>
   </div>
-  
-  </>
   )
 } 
 
