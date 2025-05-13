@@ -17,8 +17,12 @@ function Home() {
     <>
       <div className="hero-background">
         <NavBar />
+        <div className="hero-content">
+          <h1>Welcome to My Portfolio</h1>
+          <p>I'm Piyush, a passionate programmer and web developer.</p>
+        </div>
       </div>
-      <div id="about">
+      <div id="about" className="nextComponent">
         <Card/>
       </div>
       <div id="projects">

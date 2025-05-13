@@ -1,9 +1,10 @@
 const Card =() =>{
-  
+
   return (
     <>
     <div className="aboutMe">
       A Little Bit About Me
+      <p>Hey! My name is Piyush and I am a Computer Science Graduate from <a href="">Leeds Beckett University</a>. Currently I'm <br/>enhancing my portfolio with projects like a React-based personal website and a MONAI-powered medical imaging tool, aiming to bridge innovation with user-centric design.</p>
       </div>
     <div className="card">
       <div className="card1">

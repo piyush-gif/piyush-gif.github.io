@@ -21,5 +21,10 @@
 .aboutMe{
   text-align: center;
   font-size: 1.4em;
-  margin-top:100px
+}
+.nextComponent {
+  position: relative;
+  z-index: 1;
+  background: #ffffff; /* Or your preferred color */
+  padding: 2rem;
 }

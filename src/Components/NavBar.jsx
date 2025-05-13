@@ -2,7 +2,7 @@ const NavBar = () =>{
   return (
       <nav>
         <div className="nav">
-          <a>PKC</a>
+          <a>PIYUSH KHADKA CHHETRI</a>
           <div className="bar"> 
             <a href="#about">ABOUT</a>
             <a href="#projects">PROJECTS</a>
