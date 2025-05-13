@@ -1,18 +1,20 @@
-
+import computerImg from '../assets/images/computer.png';
+import codetagImg from '../assets/images/codetag.png';
+import bulbImg from '../assets/images/bulb.png';
 const Card =() =>{
 
   const dos=[{
-    image: "hrer",
+    image: computerImg,
     title: "DESIGN",
     text: "Design isn't just what a product looks like and feels like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.",
     id: 1,
   },{
-    image: "hrer",
+    image: codetagImg,
     title: "DEVELOPMENT",
     text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
     id: 2,
   },{
-    image: "hrer",
+    image: bulbImg,
     title: "Involvement",
     text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
     id: 3,

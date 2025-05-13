@@ -22,7 +22,10 @@ function Home() {
           <p>I'm Piyush, a passionate programmer and web developer.</p>
         </div>
       </div>
+      <div id="about">
+     
         <Card/>
+      </div>
       <div id="projects">
         <Project/>
       </div>
