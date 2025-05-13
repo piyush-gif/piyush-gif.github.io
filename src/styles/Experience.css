@@ -1,0 +1,36 @@
+.expIntr{
+  padding-top:40px;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.expIntr h1{
+  font-weight:normal;
+}
+.exp1 h2{
+  font-weight: 300;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.exp1{
+  text-align:center;
+}
+.exp2{
+  height:400px;
+}
+.tech-grid {
+  padding-top:50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 16px; 
+  justify-items: center;
+  align-items: center;
+}
+.tech-logo {
+  width: 80px; 
+  filter: grayscale(100%);
+  transition: filter 0.4s;
+}
+.tech-logo:hover {
+  filter: grayscale(0%);
+}

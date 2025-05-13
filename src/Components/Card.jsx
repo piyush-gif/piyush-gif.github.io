@@ -19,8 +19,6 @@ const Card =() =>{
     text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
     id: 3,
   }]
-
-
   return (
     <div className="abouts">
     <div className="aboutMe">
