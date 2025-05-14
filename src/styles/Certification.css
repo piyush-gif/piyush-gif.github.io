@@ -5,11 +5,19 @@
   display: flex;
   width: 400px;
   margin:8px;
-  background-color: brown;
+  background-color: rgb(23, 108, 199);
 }
 .certicard{
   display:flex;
 }
 .drop-down-content{
   background-color: blueviolet;
+}
+.drop-down-content a {
+  background: #2563eb;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
 }

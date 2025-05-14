@@ -15,7 +15,7 @@ const projects=[{
       , {title: 'DATA PROFFESIONAL SURVEY',
        image: Dashboard,
        github: 'https://github.com/piyush-gif/PorfolioProjects',
-       id: 2,
+       id: 3,
       }];
 
 const Project =() => {
