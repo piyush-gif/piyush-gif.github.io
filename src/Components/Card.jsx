@@ -6,17 +6,17 @@ const Card =() =>{
   const dos=[{
     image: computerImg,
     title: "DESIGN",
-    text: "Design isn't just what a product looks like and feels like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.",
+    text: "Design isn’t just about aesthetics — it’s about function, clarity, and user experience. I believe in creating intuitive and efficient interfaces that not only look good but feel natural to use. Whether it’s a dashboard, a mobile app, or a full-stack web app, I focus on delivering solutions that enhance usability across all devices and platforms.",
     id: 1,
   },{
     image: codetagImg,
     title: "DEVELOPMENT",
-    text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+    text: "With a strong foundation in computer science and hands-on experience in both frontend and backend technologies, I enjoy bringing ideas to life through code. From building machine learning models to developing web and mobile apps, I aim to write clean, maintainable code and continuously improve my skills across tools, languages, and frameworks.",
     id: 2,
   },{
     image: bulbImg,
     title: "Involvement",
-    text: "With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+    text: "I’ve contributed to various academic and personal projects including hospital systems, AI-based image diagnostics, and data dashboards. I enjoy collaborating on GitHub, participating in project-based learning, and constantly pushing myself through real-world challenges. Outside of development, I’m always exploring ways to bridge design, data, and technology.",
     id: 3,
   }]
   return (

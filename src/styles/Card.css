@@ -15,10 +15,13 @@
   margin: 0 auto;
   gap: 130px;
 }
+.card2{
+  font-weight: 300;
+}
 .aboutMe{
   padding-top:30px;
   text-align: center;
-  font-size: 1em;
+  font-weight: 300;
 }
 .aboutMe a{
   text-decoration: none;

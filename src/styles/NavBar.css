@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgb(31, 94, 165); */
   color:rgb(255, 255, 255);
   padding-left: 40px;
   user-select: none;
@@ -34,7 +33,6 @@
   width: 100vw;
   position: relative;
   overflow:hidden;
-  
 }
 .hero-background::before {
   content: "";
