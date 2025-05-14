@@ -1,23 +1,107 @@
-.header{
+/* Certifications.css */
+.cert {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cert h1 {
   text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #2d3748;
 }
-.certificates{
+.certifications::-webkit-scrollbar {
+  display: none;
+}
+
+.certifications {
   display: flex;
-  width: 400px;
-  margin:8px;
-  background-color: rgb(23, 108, 199);
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  position: relative;
 }
-.certicard{
-  display:flex;
+
+.certicard {
+  display: flex;
+  gap: 1.5rem;
 }
-.drop-down-content{
-  background-color: blueviolet;
+
+.certificates {
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  min-width: 280px;
+  transition: transform 0.2s ease;
+  border: 2px solid rgba(12, 9, 9, 0.13);
 }
-.drop-down-content a {
-  background: #2563eb;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
+
+.certificates:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px -3px rgba(0, 0, 0, 0.25);
+}
+
+.certificates h3 {
+  font-size: 1.25rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.certificates button {
+  background: #4299e1;
   color: white;
-  margin-top: 15px;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.certificates button:hover {
+  background: #3182ce;
+}
+
+.drop-down-content {
+  background: #f7fafc;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1rem;
+  margin-top: -0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.drop-down-content div {
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid #e2e8f0; 
+}
+
+.drop-down-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.drop-down-content li {
+  padding: 0.25rem 0;
+  color: #718096;
+}
+
+.drop-down-content a {
+  display: inline-block;
+  background: #48bb78;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.drop-down-content a:hover {
+  background: #38a169;
 }
