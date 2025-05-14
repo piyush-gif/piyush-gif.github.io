@@ -12,7 +12,7 @@ const Certification = () => {
   const [open, setOpen] = useState(null);
   return (
     <div className='cert'>
-      <h1>Certifications</h1>
+      <h1>CERTIFICATES</h1>
       <div className="certifications"> 
         <div className="certicard">
           {content.map((cont) =>(
