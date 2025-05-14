@@ -1,8 +1,10 @@
 .mainProject{
   text-align: center;
   margin-top: 100px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: normal;
+
+}
+.mainProject h1{
+    font-weight: normal;
 }
 .projects{
   margin-top:10px;

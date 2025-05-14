@@ -21,7 +21,7 @@ const projects=[{
 const Project =() => {
   return (
     <div className='mainProject'>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <p>(more coming soon)</p>
       <div className="projects">
         {projects.map((proj) => (

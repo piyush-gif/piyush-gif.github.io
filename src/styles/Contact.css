@@ -4,11 +4,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3rem 1.5rem;
+  padding: 0;
   background-color: #f0f4f8;
-  min-height: 100vh;
+  min-height: 50vh;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Logo styling */
