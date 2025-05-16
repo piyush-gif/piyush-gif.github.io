@@ -1,13 +1,14 @@
-.nav{
+.nav {
+  background-color: rgb(0, 0, 0);
+  position: sticky; 
+  top: 0;
+  z-index: 100;
+  padding: 0.2rem 0.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:rgb(255, 255, 255);
-  padding-left: 2vm;
-  user-select: none;
-  font-size: 1em;
-  position: relative;
-  z-index: 2;
+  color: white;
+  text-decoration: none;
 }
 .bar{
   display:flex;

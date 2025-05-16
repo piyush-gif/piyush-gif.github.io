@@ -1,9 +1,6 @@
 /* Certifications.css */
 .cert {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  
+  padding: 1rem;
 }
 .cert h3{
   font-weight: 400;
@@ -22,18 +19,17 @@
   display: flex;
   gap: 1.5rem;
   overflow-x: auto;
-  padding: 1rem 0;
+  padding: 1rem;
   position: relative;
-
+  justify-content: center;
 }
 
 .certicard {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .certificates {
-  
   background: rgb(255, 255, 255);
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
