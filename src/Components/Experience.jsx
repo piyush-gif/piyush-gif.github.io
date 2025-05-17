@@ -26,7 +26,7 @@ return (
   <>
     <div className="expIntr">
       <h1>EXPERIENCE</h1>
-      <p>I I thrive on learning — whether it's exploring a new JavaScript framework, <br/>diving into SQL optimization, or deploying modern web solutions, I’m always pushing to grow in this ever-evolving industry.</p>
+      <p>I thrive on learning — whether it's exploring a new JavaScript framework, <br/>diving into SQL optimization, or deploying modern web solutions, I’m always pushing to grow in this ever-evolving industry.</p>
     </div>
     <div className="exp1">
       <h2>Some technologies I've worked with:</h2>
