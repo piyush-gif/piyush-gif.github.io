@@ -19,7 +19,7 @@ function Parallax() {
     <div className="parallax-container" ref={parallaxRef}>
       <div className="parallax-content">
         <h2>CHECK OUT MY RESUME:</h2>
-        <a href="/Piyushkhadkacv.pdf" target="_blank" rel="noreferrer">
+        <a href="/PiyushkhadkaResume.pdf" target="_blank" rel="noreferrer">
           GRAB A COPY!
         </a>
       </div>
